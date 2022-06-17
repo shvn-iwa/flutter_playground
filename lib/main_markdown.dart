@@ -21,12 +21,12 @@ class MyApp extends StatelessWidget {
 }
 
 final String markdownText = '''
-# 見出し1
+# Headline1
 hoge
 
-## 見出し2
+## Headline2
 fuga
 
-### 見出し3
+### Headline3
 piyo 
 ''';
