@@ -20,20 +20,20 @@ class CountryList extends StatelessWidget {
   Widget build(BuildContext context) {
     return ListView(
       children: [
-        Item(text: "Iceland"),
-        Item(text: "America"),
-        Item(text: "Angola"),
-        Item(text: "India"),
-        Item(text: "ÜK"),
-        Item(text: "Ethiopia"),
-        Item(text: "Austraria"),
-        Item(text: "Canada"),
-        Item(text: "Greece"),
-        Item(text: "Colombia"),
-        Item(text: "Giorgia"),
-        Item(text: "Swizerland"),
-        Item(text: "France"),
-        Item(text: "Japan")
+        const Item(text: "Iceland"),
+        const Item(text: "America"),
+        const Item(text: "Angola"),
+        const Item(text: "India"),
+        const Item(text: "ÜK"),
+        const Item(text: "Ethiopia"),
+        const Item(text: "Austraria"),
+        const Item(text: "Canada"),
+        const Item(text: "Greece"),
+        const Item(text: "Colombia"),
+        const Item(text: "Giorgia"),
+        const Item(text: "Swizerland"),
+        const Item(text: "France"),
+        const Item(text: "Japan")
       ],
     );
   }
